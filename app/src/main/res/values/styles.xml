@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="cell">
+        <item name="android:textStyle">bold</item>
+        <item name="android:height">100dp</item>
+        <item name="android:width">100dp</item>
+        <item name="android:textSize">50sp</item>
+    </style>
+</resources>
