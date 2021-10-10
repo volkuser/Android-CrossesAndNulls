@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Crosses and nulls</string>
+    <!--main activity (menu)-->
+    <!--for control button-->
+    <string name="play">Play</string>
+    <string name="replay">Replay</string>
+    <!--for text field-->
+    <string name="helpToStart">To start the game, click the button below.</string>
+    <string name="row">Row.</string>
+    <string name="crossesWin">Crosses are win.</string>
+    <string name="nullsWin">Nulls are win.</string>
+    <!--game activity-->
+    <!--for button-->
+    <string name="ret">return</string>
+    <!--for cells-->
+    <string name="cross">x</string>
+    <string name="nul">o</string>
+</resources>
