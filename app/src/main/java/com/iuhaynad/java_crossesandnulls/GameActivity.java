@@ -140,6 +140,20 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
                         Checkers.setGameStatus((byte)3);
                     else Checkers.setGameStatus((byte)2);
                 }
+                if (!btn_cell00.getText().toString().equals("") &&
+                        !btn_cell01.getText().toString().equals("") &&
+                        !btn_cell02.getText().toString().equals("") &&
+                        !btn_cell10.getText().toString().equals("") &&
+                        !btn_cell11.getText().toString().equals("") &&
+                        !btn_cell12.getText().toString().equals("") &&
+                        !btn_cell20.getText().toString().equals("") &&
+                        !btn_cell21.getText().toString().equals("") &&
+                        !btn_cell22.getText().toString().equals("")) {
+                    if (Checkers.getGameStatus() == 1) {
+                        Intent intent = new Intent(this, MainActivity.class);
+                        startActivity(intent);
+                    }
+                }
             }
             if (Checkers.getGameStatus() != 1) {
                 Intent intent = new Intent(this, MainActivity.class);
